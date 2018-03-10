@@ -1,0 +1,8 @@
+@mixin ovalimg {
+     -webkit-clip-path: ellipse(30% 50% at 50% 50%);
+     clip-path: ellipse(30% 50% at 50% 50%);
+     //box-shadow: 15px 15px 50px $smoke;
+     transform: rotate(-20deg);
+     margin: 1em;
+
+}

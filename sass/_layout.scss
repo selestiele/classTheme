@@ -1,0 +1,86 @@
+// Responsive layout
+
+@import '_variables.scss';
+@import '_mixins.scss';
+
+
+/* General styles  */
+
+body {
+     background-color: $background;
+     color: $darkblue;
+}
+
+main {
+     width: 90%;
+     margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+     font-family: $heading;
+}
+
+p {
+     font-family: $main;
+     margin-bottom: 1em;
+}
+
+/* Header styles */
+
+header {
+     width: 100%;
+     margin: 1em auto;
+
+     h1 {
+          text-transform: uppercase;
+          text-align: center;
+          margin: 1em;
+          padding: 1em;
+     }
+}
+
+nav {
+     margin: .5em 0;
+     background-color: $darkblue;
+     text-align: center;
+     font-family: $main;
+     text-transform: uppercase;
+     font-weight: bold;
+     letter-spacing: 2px;
+     
+     li {
+          display: inline-block;
+          padding: .5em;
+
+          a {
+               color: $background;
+               text-decoration: none;
+          }
+
+          &:active {
+               background-color: $mediumblue;
+          }
+
+          &:hover,
+          &:focus  {
+               background-color: $gold;
+               color: $darkblue;
+          }
+     }
+}
+
+/* Posts and Pages */
+article {
+     max-width: 75%;
+     margin: 1em auto;
+}
+
+/* Media */
+img {
+     @include ovalimg;
+
+     &:hover {
+          transform: none;
+          transition: all ease 500ms;
+     }
+}

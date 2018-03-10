@@ -1,0 +1,110 @@
+/* 
+     Theme Name: My Awesome Custom Theme
+     Theme URI: http://gtc.elizabethmbank.info/2510WebTech
+     Author: Elizabeth Bank
+     Author URI: http://www.elizabethmbank.info
+     Description: This is my custom theme for the Web Technologies class (CIST 2510).
+     Version: 0.1
+     License: GNU General Public License v2 or later
+     License URI: http://www.gnu.org/licenses/gpl-2.0.html
+     Tags: 
+     Text Domain: liztheme
+
+     This theme, like WordPress, is licensed under the GPL.
+     Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: white;
+  color: black;
+  font-size: 18px;
+  line-height: 1.6em; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+h4 {
+  font-size: 1.25rem; }
+
+h5 {
+  font-size: 1rem; }
+
+h6 {
+  font-size: .8rem; }
+
+p {
+  font-size: 1rem; }
+
+/* General styles  */
+body {
+  background-color: #DDDDDD;
+  color: #072E41; }
+
+main {
+  width: 90%;
+  margin: 0 auto; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", Verdana, sans-serif; }
+
+p {
+  font-family: "Lato", Arial, sans-serif;
+  margin-bottom: 1em; }
+
+/* Header styles */
+header {
+  width: 100%;
+  margin: 1em auto; }
+  header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em;
+    padding: 1em; }
+
+nav {
+  margin: .5em 0;
+  background-color: #072E41;
+  text-align: center;
+  font-family: "Lato", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px; }
+  nav li {
+    display: inline-block;
+    padding: .5em; }
+    nav li a {
+      color: #DDDDDD;
+      text-decoration: none; }
+    nav li:active {
+      background-color: #045F8B; }
+    nav li:hover, nav li:focus {
+      background-color: #DC7600;
+      color: #072E41; }
+
+/* Posts and Pages */
+article {
+  max-width: 75%;
+  margin: 1em auto; }
+
+/* Media */
+img {
+  -webkit-clip-path: ellipse(30% 50% at 50% 50%);
+  clip-path: ellipse(30% 50% at 50% 50%);
+  transform: rotate(-20deg);
+  margin: 1em; }
+  img:hover {
+    transform: none;
+    transition: all ease 500ms; }
+
+/*# sourceMappingURL=style.css.map */
