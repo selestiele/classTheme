@@ -1,6 +1,7 @@
 // Responsive layout
 
 @import '_variables.scss';
+@import '_icons.scss';
 @import '_mixins.scss';
 
 
@@ -39,7 +40,7 @@ header {
      }
 }
 
-nav {
+.main-nav {
      margin: .5em 0;
      background-color: $darkblue;
      text-align: center;
@@ -67,6 +68,14 @@ nav {
                color: $darkblue;
           }
      }
+}
+
+.social-nav {
+   text-align: right;
+   
+   li {
+       color: $mediumblue;
+   }
 }
 
 /* Posts and Pages */

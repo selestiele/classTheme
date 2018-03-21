@@ -13,7 +13,10 @@ get_header();
                   endwhile;
             endif;  ?>
       </article>
-
+        <div>
+            <p>This is a div that\'s hard coded in the index.php file.</p>
+            
+          </div>
 </main>
 <?php
 get_sidebar();
