@@ -14,7 +14,7 @@ get_header();
             endif;  ?>
       </article>
         <div>
-            <p>This is a div that\'s hard coded in the index.php file.</p>
+            <p>This is a div that's hard coded in the index.php file.</p>
             
           </div>
 </main>

@@ -1,18 +1,5 @@
 //FontAwesome Icon fonts
 
-@font-face {
-  font-family: 'Font Awesome 5 Brands';
-  font-style: normal;
-  font-weight: normal;
-  src: url('#{$fa-font-path}/fa-brands-400.eot');
-  src: url('#{$fa-font-path}/fa-brands-400.eot?#iefix') format('embedded-opentype'),
-  url('#{$fa-font-path}/fa-brands-400.woff2') format('woff2'),
-  url('#{$fa-font-path}/fa-brands-400.woff') format('woff'),
-  url('#{$fa-font-path}/fa-brands-400.ttf') format('truetype'),
-  url('#{$fa-font-path}/fa-brands-400.svg#fontawesome') format('svg');
-}
-
-
 // Variables
 // --------------------------
 
@@ -24,10 +11,6 @@ $fa-border-color:             #eee !default;
 $fa-inverse:                  #fff !default;
 $fa-li-width:                 2em !default;
 
-// Convenience function used to set content property
-@function fa-content($fa-var) {
-  @return unquote("\"#{ $fa-var }\"");
-}
 
 //FontAwesome content codes
 

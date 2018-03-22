@@ -26,6 +26,10 @@ p {
      margin-bottom: 1em;
 }
 
+.sr-text {
+    display: none;
+}
+
 /* Header styles */
 
 header {
@@ -73,9 +77,32 @@ header {
 .social-nav {
    text-align: right;
    
+   
    li {
        color: $mediumblue;
+       list-style-type: none;
+       display: inline;
+       padding: .25em;
+       
+       
+       a {
+           font-family: $icons;
+           @include socialIcons;
+           color: $darkblue;
+           text-decoration: none;
+           
+           &::before {
+               font-size: 1.5em;
+           }
+           
+           &:hover,
+           &:focus {
+               color: $gold;
+               border-bottom: 1px dotted $gold;
+           }
+       }
    }
+   
 }
 
 /* Posts and Pages */

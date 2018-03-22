@@ -15,5 +15,18 @@
 
 */
 
+//FontAwesome Icons
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fontAwesome/webfonts/fa-brands-400.eot');
+    src: url('/fontAwesome/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+    url('/fontAwesome/webfonts/fa-brands-400.woff2') format('woff2'),
+    url('/fontAwesome/webfonts/fa-brands-400.woff') format('woff'),
+    url('/fontAwesome/webfonts/fa-brands-400.ttf') format('truetype'),
+    url('/fontAwesome/webfonts/fa-brands-400.svg#fontawesome') format('svg');
+}
+
 @import 'sass/_normalize.scss';
 @import 'sass/_layout.scss';

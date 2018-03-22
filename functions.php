@@ -14,7 +14,7 @@ function liztheme_styles() {
 add_action('wp_enqueue_scripts', 'liztheme_styles');
 
 register_nav_menus( array(
-     'primary' => __( 'Main Menu', 'main'),
+     'main' => __( 'Main Menu', 'main'),
      'social' => __( 'Social Menu', 'social')
 ));
 

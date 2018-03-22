@@ -9,7 +9,8 @@
 
         
 @mixin socialIcons {
-        
+    
+                   
             &[href*="wordpress.org"]::before,
             &[href*="wordpress.com"]::before {
             content: $wordpress;
@@ -24,11 +25,13 @@
             &[href*="instagram.com"]::before {
                 content: $instagram;
             }
-            &[href*="amazon.com"]::before {
-                content: $amazon;
-            }
+            
             &[href*="linkedin.com"]::before {
                 content: $linkedin;
+            }
+            
+            &[href*="github.com"]::before {
+                content: $github;
             }
             
 }
