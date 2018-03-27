@@ -1,7 +1,6 @@
 // Responsive layout
 
 @import '_variables.scss';
-@import '_icons.scss';
 @import '_mixins.scss';
 
 
@@ -26,9 +25,9 @@ p {
      margin-bottom: 1em;
 }
 
-.sr-text {
+/*.sr-text {
     display: none;
-}
+}*/
 
 /* Header styles */
 
@@ -44,7 +43,8 @@ header {
      }
 }
 
-.main-nav {
+.main-nav,
+.footer-nav {
      margin: .5em 0;
      background-color: $darkblue;
      text-align: center;
@@ -120,3 +120,19 @@ img {
           transition: all ease 500ms;
      }
 }
+
+/* Footer  */
+footer {
+    font-family: $main;
+    text-align: center;
+    margin: 1em 0;
+    
+    p {
+        font-size: .6em;
+    }
+}
+
+.footer-nav {
+    font-size: .8em;
+}
+

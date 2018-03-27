@@ -1,3 +1,4 @@
+
 @mixin ovalimg {
      -webkit-clip-path: ellipse(30% 50% at 50% 50%);
      clip-path: ellipse(30% 50% at 50% 50%);
@@ -13,25 +14,25 @@
                    
             &[href*="wordpress.org"]::before,
             &[href*="wordpress.com"]::before {
-            content: $wordpress;
+            content: "\f19a";
             }
         
             &[href*="facebook.com"]::before {
-                content: $facebook;
+                content: "\f09a";
             }
             &[href*="twitter.com"]::before {
-                content: $twitter;
+                content: "\f099";
             }
             &[href*="instagram.com"]::before {
-                content: $instagram;
+                content: "\f16d";
             }
             
             &[href*="linkedin.com"]::before {
-                content: $linkedin;
+                content: "\f08c";
             }
             
             &[href*="github.com"]::before {
-                content: $github;
+                content: "\f09b";
             }
             
 }

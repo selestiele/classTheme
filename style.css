@@ -69,9 +69,9 @@ p {
   font-family: "Lato", Arial, sans-serif;
   margin-bottom: 1em; }
 
-.sr-text {
-  display: none; }
-
+/*.sr-text {
+    display: none;
+}*/
 /* Header styles */
 header {
   width: 100%;
@@ -82,7 +82,8 @@ header {
     margin: 1em;
     padding: 1em; }
 
-.main-nav {
+.main-nav,
+.footer-nav {
   margin: .5em 0;
   background-color: #072E41;
   text-align: center;
@@ -90,15 +91,20 @@ header {
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px; }
-  .main-nav li {
+  .main-nav li,
+  .footer-nav li {
     display: inline-block;
     padding: .5em; }
-    .main-nav li a {
+    .main-nav li a,
+    .footer-nav li a {
       color: #DDDDDD;
       text-decoration: none; }
-    .main-nav li:active {
+    .main-nav li:active,
+    .footer-nav li:active {
       background-color: #045F8B; }
-    .main-nav li:hover, .main-nav li:focus {
+    .main-nav li:hover, .main-nav li:focus,
+    .footer-nav li:hover,
+    .footer-nav li:focus {
       background-color: #DC7600;
       color: #072E41; }
 
@@ -114,17 +120,17 @@ header {
       color: #072E41;
       text-decoration: none; }
       .social-nav li a[href*="wordpress.org"]::before, .social-nav li a[href*="wordpress.com"]::before {
-        content: ""; }
+        content: "\f19a"; }
       .social-nav li a[href*="facebook.com"]::before {
-        content: ""; }
+        content: "\f09a"; }
       .social-nav li a[href*="twitter.com"]::before {
-        content: ""; }
+        content: "\f099"; }
       .social-nav li a[href*="instagram.com"]::before {
-        content: ""; }
+        content: "\f16d"; }
       .social-nav li a[href*="linkedin.com"]::before {
-        content: ""; }
+        content: "\f08c"; }
       .social-nav li a[href*="github.com"]::before {
-        content: ""; }
+        content: "\f09b"; }
       .social-nav li a::before {
         font-size: 1.5em; }
       .social-nav li a:hover, .social-nav li a:focus {
@@ -145,5 +151,16 @@ img {
   img:hover {
     transform: none;
     transition: all ease 500ms; }
+
+/* Footer  */
+footer {
+  font-family: "Lato", Arial, sans-serif;
+  text-align: center;
+  margin: 1em 0; }
+  footer p {
+    font-size: .6em; }
+
+.footer-nav {
+  font-size: .8em; }
 
 /*# sourceMappingURL=style.css.map */
